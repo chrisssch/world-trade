@@ -1,0 +1,9 @@
+0	Unknown
+1	Sea
+2	Rail
+3	Road
+4	Air
+5	Post
+7	Fixed Mechanism
+8	Inland Waterway
+9	Self Propulsion
