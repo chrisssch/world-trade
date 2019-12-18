@@ -1,7 +1,0 @@
-U10	MFN Zero
-U11	MFN Non Zero
-U20	GSP Zero
-U21	GSP Non Zero
-U30 Preference Zero
-U31 Preference Non Zero
-UZZ Unknown

@@ -1,3 +1,0 @@
-0	Not containerised
-1	Containerised
-9	Not applicable

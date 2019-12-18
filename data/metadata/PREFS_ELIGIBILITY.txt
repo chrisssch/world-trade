@@ -1,5 +1,0 @@
-E1	Only MFN
-E2	Only GSP
-E3	Only Preferences
-E5	GSP and Preferences
-EZ	Unknown
