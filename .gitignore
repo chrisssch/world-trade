@@ -1,6 +1,6 @@
 /.ipynb_checkpoints/
+/__pycache__/
 /data/dat/
 /data/parquet/
-readme.md
-gravity-old.ipynb
-/UN_Comtrade_API_Downloader
+generate-requirements.py
+metadata-explanation.txt
