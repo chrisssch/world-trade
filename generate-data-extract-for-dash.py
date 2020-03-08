@@ -78,7 +78,6 @@ flows = flows.withColumn("YEAR", flows["PERIOD"].substr(1, 4).cast(IntegerType()
 df = flows \
     .select("REPORTER", "PARTNER", "TRADE_TYPE", "PRODUCT_NC", "FLOW", "YEAR", "VALUE_IN_EUROS") \
     .filter(flows["TRADE_TYPE"] == "I") \
-    .filter(flows["YEAR"].isin(2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018)) \
     .filter(flows["PRODUCT_NC"] != "TOTAL") \
     .groupBy("YEAR", "REPORTER", "PARTNER", "PRODUCT_NC", "FLOW").agg({"VALUE_IN_EUROS": "sum"}) \
     .groupBy("YEAR", "REPORTER", "PARTNER", "PRODUCT_NC").pivot("FLOW", [1, 2]).sum("sum(VALUE_IN_EUROS)") \
